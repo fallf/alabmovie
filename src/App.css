@@ -1,3 +1,14 @@
+/* Light and Bright Theme */
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,11 +22,13 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ffbb33);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #61dafb);
 }
 
 @keyframes logo-spin {
@@ -35,8 +48,55 @@
 
 .card {
   padding: 2em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ffbb33;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ffbb33;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa500;
+}
+
+h1,
+h2 {
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .read-the-docs {
-  color: #888;
+  color: #666;
+}
+.description {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
 }
